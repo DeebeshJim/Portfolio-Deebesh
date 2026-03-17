@@ -1,7 +1,7 @@
 import "./Project.css";
 
 import img1 from "../../assets/images/Cleveroad.jpg";
-import img2 from "../../assets/images/Capture d'écran 2025-10-22 182207.png";
+import img2 from "../../assets/images/por.png";
 import img3 from "../../assets/images/Weather Forecast Dashboard.jpg";
 import img4 from "../../assets/images/WordPress dashboard design concept.jpg";
 import img5 from "../../assets/images/Game Dashboard Design.jpg";
