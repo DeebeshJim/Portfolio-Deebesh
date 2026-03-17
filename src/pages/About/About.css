@@ -1,0 +1,130 @@
+.about{
+    margin:auto;
+    max-width:100%;
+    padding:40px;
+    background-image: url('g.jpg');
+    background-size: cover;
+    background-position: center;
+    max-height: 100%;
+    
+}
+.about title{
+    text-align:center;
+    font-size:40px;
+    color:#393838;
+    margin-bottom:10px;
+}
+.title .text-about{
+    margin-top : 10px;
+}
+
+.title{
+    margin-top: 10px;
+    margin-bottom:0px;
+    font-size:42px;
+    color:white;
+    text-align:center;
+    position:relative;
+}
+
+.title::after{
+    content:"";
+    width:120px;
+    height:3px;
+    background:#777777;
+    display:block;
+    margin: auto 0;
+    border-radius:2px;
+}
+
+
+.content{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:80px;
+}
+
+
+.photo-card{
+    width:320px;
+    height:420px;
+    perspective:1000px;
+    cursor:pointer;
+}
+
+
+.photo-inner{
+    position:relative;
+    width:100%;
+    height:100%;
+    transition:transform 0.7s;
+    transform-style:preserve-3d;
+}
+
+.photo-inner.flip{
+    transform:rotateY(180deg);
+}
+
+
+.photo-front{
+    position:absolute;
+    width:100%;
+    height:100%;
+    backface-visibility:hidden;
+}
+
+.photo-front img{
+    width:100%;
+    height:100%;
+    border-radius:12px;
+    object-fit:cover;
+    filter:grayscale(20%);
+    transition:0.4s;
+    box-shadow:0 20px 50px rgba(0,0,0,0.6);
+}
+
+
+.photo-back{
+    position:absolute;
+    width:100%;
+    height:100%;
+    transform:rotateY(180deg);
+    backface-visibility:hidden;
+}
+
+.photo-back img{
+    width:100%;
+    height:100%;
+    border-radius:12px;
+    object-fit:cover;
+    box-shadow:0 20px 50px rgba(0,0,0,0.6);
+}
+
+
+.photo-card:hover img{
+    transform:scale(1.05);
+}
+
+
+.text-about{
+    max-width:520px;
+}
+
+.text-about p{
+    padding: 0%;
+    font-size:19px;
+    line-height:1.9;
+    color:#fcfafa;
+    text-align:justify;
+    text-shadow: 4px 4px 10px rgba(2,2,2,2)    ;
+}
+.imgabout{
+  z-index: 100000;
+  width: 100%;
+  height: 1200px;
+  object-fit: cover;
+}
+h2{
+    color:white;
+}
