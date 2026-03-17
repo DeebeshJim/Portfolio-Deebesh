@@ -22,7 +22,7 @@ const sendEmail = (e) => {
 function Contact() {
 
   return (
-    <div className="contact" id="contact">
+    <div className="contact" id="contact" >
 
       <div className="title">
         <h2>Contact Me</h2>
