@@ -2,7 +2,7 @@
 
 # Amine Portfolio Showcase 💻
 
-Welcome to Amine's Portfolio Showcase!
+Welcome to Deebesh's Portfolio Showcase!
 A modern and elegant personal portfolio website built to present my projects, skills, and professional journey using React.js.
 ---
 
