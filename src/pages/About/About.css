@@ -2,7 +2,7 @@
     margin:auto;
     max-width:100%;
     padding:40px;
-    background-image: url('g.jpg');
+    background-image: url('/g.jpg');
     background-size: cover;
     background-position: center;
     max-height: 100%;

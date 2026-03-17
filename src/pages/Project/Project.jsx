@@ -6,8 +6,7 @@ import img3 from "../../assets/images/Weather Forecast Dashboard.jpg";
 import img4 from "../../assets/images/WordPress dashboard design concept.jpg";
 import img5 from "../../assets/images/Game Dashboard Design.jpg";
 import img6 from "../../assets/images/Task manager app.jpg";
-import img7 from  "../../assets/images/c.jpg";
-import img8 from "../../assets/images/f.jpg";
+
 
 const projects = [
   {
@@ -60,7 +59,7 @@ export default function Project() {
     <section className="project reveal" id="project">
 
       <div className="title">
-        <h2>Project</h2>
+        <h2>Projects</h2>
       </div>
 
       <div className="projects-container">
