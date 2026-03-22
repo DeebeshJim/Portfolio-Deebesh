@@ -36,7 +36,7 @@ function Header() {
             </ul>
 
             <ul className="icons">
-                <li><a href="#"><FontAwesomeIcon icon={faGithub} /></a></li>
+                <li><a href="https://github.com/DeebeshJim"><FontAwesomeIcon icon={faGithub} /></a></li>
                 <li><a href="https://www.instagram.com/deebeshj1?igsh=MzNrdzg2bHpxYWE1"><FontAwesomeIcon icon={faInstagram} /></a></li>
                 <li><a href="https://www.linkedin.com/in/deebesh-jim-5957a7316?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><FontAwesomeIcon icon={faLinkedin} /></a></li>
             </ul>

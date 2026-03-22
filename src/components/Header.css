@@ -82,6 +82,7 @@ ul{
 
 .links li a:hover{
     color:yellow;
+    font-size: 24px ;
     text-shadow:0 0 8px rgba(119,119,119,0.7);
 }
 

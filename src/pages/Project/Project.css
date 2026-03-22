@@ -35,10 +35,120 @@
 
 .project-card{
     background:#f7f7f7;
+    position:relative;
     border-radius:15px;
     overflow:hidden;
     transition:0.35s;
     box-shadow:0 8px 25px rgba(0,0,0,0.08);
+}
+.project-card.blue {
+  border: 2px solid #00ccff;
+
+  box-shadow:
+    0 0 10px #00ccff,
+    0 0 20px #00ccff,
+    0 0 30px #0099ff,
+    0 0 40px rgba(0,153,255,0.9);
+
+  animation: blueElectric 1.5s infinite alternate;
+}
+
+@keyframes blueElectric {
+  0% {
+    box-shadow:
+      0 0 5px #00ccff,
+      0 0 10px #0099ff,
+      0 0 15px #0066ff;
+  }
+  100% {
+    box-shadow:
+      0 0 10px #00ccff,
+      0 0 20px #0099ff,
+      0 0 30px #0066ff,
+      0 0 40px rgba(0,102,255,1);
+  }
+
+}
+.project-card.red {
+  border: 2px solid #ff3b3b;
+
+  box-shadow:
+    0 0 10px #ff3b3b,
+    0 0 20px #ff3b3b,
+    0 0 40px #ff0000,
+    0 0 80px rgba(255,0,0,0.9);
+
+  animation: redElectric 1.5s infinite alternate;
+}
+
+@keyframes redElectric {
+  0% {
+    box-shadow:
+      0 0 5px #ff3b3b,
+      0 0 10px #ff0000,
+      0 0 15px #cc0000;
+  }
+  100% {
+    box-shadow:
+      0 0 10px #ff3b3b,
+      0 0 20px #ff0000,
+      0 0 30px #cc0000,
+      0 0 40px rgba(255,0,0,1);
+  }
+}
+.project-card.green {
+  border: 2px solid #00ff88;
+
+  box-shadow:
+    0 0 10px #00ff88,
+    0 0 20px #00ff88,
+    0 0 30px #00cc66,
+    0 0 40px rgba(0,255,136,0.9);
+
+  animation: greenElectric 1.5s infinite alternate;
+}
+
+@keyframes greenElectric {
+  0% {
+    box-shadow:
+      0 0 5px #00ff88,
+      0 0 10px #00cc66,
+      0 0 15px #009944;
+  }
+  100% {
+    box-shadow:
+      0 0 10px #00ff88,
+      0 0 20px #00cc66,
+      0 0 30px #009944,
+      0 0 40px rgba(0,255,136,1);
+  }
+}
+.project-card.orange {
+  border: 2px solid #ff9900;
+
+  box-shadow:
+    0 0 10px #ff9900,
+    0 0 20px #ff9900,
+    0 0 30px #ff5500,
+    0 0 40px rgba(255,153,0,0.9);
+
+  animation: orangeElectric 1.5s infinite alternate;
+}
+
+@keyframes orangeElectric {
+  0% {
+    box-shadow:
+      0 0 5px #ff9900,
+      0 0 10px #ff5500,
+      0 0 15px #ff2200;
+  }
+  100% {
+    box-shadow:
+      0 0 10px #ff9900,
+      0 0 20px #ff5500,
+      0 0 30px #ff2200,
+      0 0 40px rgba(255,153,0,1);
+  }
 }
 
 .project-card:hover{

@@ -13,48 +13,55 @@ const projects = [
     title: "E-Commerce Website",
     img: img1,
     desc: "Modern online store with product filtering, cart, and payment system.",
-    skills: ["HTML", "CSS", "JavaScript"]
+    skills: ["HTML", "CSS", "JavaScript"],
+    color: "blue"
   },
 
   {
     title: "Portfolio Website",
     img: img2,
     desc: "Personal portfolio to showcase my design and coding projects.",
-    skills: ["HTML", "CSS", "Bootstrap"]
+    skills: ["HTML", "CSS", "Bootstrap"],
+    color:"green"
   },
 
   {
     title: "Weather App",
     img: img3,
     desc: "Responsive app showing real-time weather data using API integration.",
-    skills: ["HTML", "CSS", "API"]
+    skills: ["HTML", "CSS", "API"],
+    color:"orange"
   },
 
   {
     title: "Blog Website",
     img: img4,
     desc: "Clean and simple blogging platform with markdown support.",
-    skills: ["HTML", "Tailwind", "JavaScript"]
+    skills: ["HTML", "Tailwind", "JavaScript"],
+    color: "orange"
   },
 
   {
     title: "Game Landing Page",
     img: img5,
     desc: "Landing page for a game with animations and parallax effects.",
-    skills: ["HTML", "CSS", "GSAP"]
+    skills: ["HTML", "CSS", "GSAP"],
+    color: "red"
   },
 
   {
     title: "Task Manager",
     img: img6,
     desc: "Task tracking web app with CRUD features and clean UI.",
-    skills: ["HTML", "CSS", "JS"]
+    skills: ["HTML", "CSS", "JS"],
+    color: "blue"
   }
 ];
 
 export default function Project() {
 
   return (
+    
 
     <section className="project reveal" id="project">
 
@@ -66,7 +73,7 @@ export default function Project() {
 
         {projects.map((project, index) => (
 
-          <div className="project-card" key={index}>
+          <div className={`project-card ${project.color}`} key={index}>
 
             <img src={project.img} alt={project.title} />
 
