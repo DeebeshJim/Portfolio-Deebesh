@@ -65,8 +65,8 @@ export default function Project() {
 
     <section className="project reveal" id="project">
 
-      <div className="title">
-        <h2>Projects</h2>
+      <div className="title" >
+        <h2 id="log">Projects</h2>
       </div>
 
       <div className="projects-container">
