@@ -18,10 +18,7 @@ export default function Hero() {
         <div className="buttn">
           <a href="#contact">Contact</a>
           <a href="#about">Who I'm</a>
-          <a href="DeebeshCV.pdf">
-            Download CV
-          </a>
-          
+          <a href="DeebeshCV.pdf"> Download CV</a> 
           <a href="https://www.youtube.com/@SaberKingscrown" target="_blank" rel="noopener noreferrer">YouTube Channel - Saber Kingscrown</a>
           <a href="https://www.webnovel.com/profile/4504719451" target="_blank" rel="noopener noreferrer">Webnovel - Saber Kingscrown</a>
           
