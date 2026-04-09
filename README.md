@@ -1,15 +1,9 @@
-![Logo](Photo.png)
 
-# Amine Portfolio Showcase 💻
+
+# Deebesh Jim Showcase 💻
 
 Welcome to Deebesh's Portfolio Showcase!
 A modern and elegant personal portfolio website built to present my projects, skills, and professional journey using React.js.
----
-
-## Live Demo 🚀
-
-You can view the live website here: [Live Demo](https://saboo24.github.io/Portfolio11/)
-
 ---
 
 ## 🌟 Website Sections
@@ -57,16 +51,12 @@ This project is licensed under the terms described in the [LICENSE](LICENSE) fil
 
 ## 📬 Contact
 
-- Email: aminehamzaoui1925@gmail.com   
-- Location: Boumerdès, Algeria  
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/mohamed-amine-hamzaoui-a2453a35b/)  
-- GitHub: [GitHub](https://github.com/Saboo24)  
-- Instagram: [Instagram](https://www.instagram.com/a__m.i.n__e/?utm_source=ig_web_button_share_sheet)
+- Email: deebeshjim@gmail.com   
+-
 
 ---
 
-Made with ❤️ by **Amine Hamzaoui**
+Made with ❤️ by *deebesh jim*
 
 
-```bash
-git clone https://github.com/Saboo24/portofolio11.git
+
